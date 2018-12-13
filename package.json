@@ -1,0 +1,27 @@
+{
+  "name": "react-photowall-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fragmnt02/react-photowall-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fragmnt02/react-photowall-api/issues"
+  },
+  "homepage": "https://github.com/fragmnt02/react-photowall-api#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "graphql-yoga": "^1.16.2",
+    "jwt-decode": "^2.2.0",
+    "node-fetch": "^2.2.0",
+    "utf8": "^3.0.0"
+  }
+}

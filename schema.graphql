@@ -1,0 +1,12 @@
+scalar Date
+type Database{
+  photos:[String]
+}
+
+type Query {
+  getDatabase:Database
+}
+
+type Mutation {
+  addPhoto(photo:String):Database
+}
